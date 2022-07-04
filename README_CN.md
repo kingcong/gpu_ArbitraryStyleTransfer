@@ -151,13 +151,16 @@ bash ./scripts/run_eval.sh [PLATFORM] [DEVICE_ID] [CONTENT_PATH] [STYLE_PATH] [I
 
 ### 测试效果
 
+| 参数           | 单GPU                               |
 | -------------- | -------------------------------------------- |
 | 模型版本       | v1                                           |
+| 环境           |  GPU                                      |
 | MindSpore 版本 | 1.3.0                                        |
 | 数据集         | 内容数据集: MS COCO. 风格数据集: PBN testing |
 | batch_size     | 1                                            |
 | Speed          | GPU: 342ms/step;                             |
 | 输出           | 风格迁移图片                                 |
+
 
 # [样例](#内容)
 
